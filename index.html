@@ -3,9 +3,98 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Adarsh A Inamdar - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    Hello 
+    <header>
+        <div class="container">
+            <h1>Adarsh A Inamdar</h1>
+            <p>Aspiring AI/ML Developer | Cybersecurity Enthusiast</p>
+            <nav>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#education">Education</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about" class="container">
+        <h2>About Me</h2>
+        <p>
+            Hello! I am a recent graduate and passionate developer specializing in AI, machine learning, and cybersecurity. 
+            My focus is on building intelligent solutions that harness data for real-world applications. I am committed to continuous learning 
+            and enthusiastic about contributing to innovative projects and impactful initiatives.
+        </p>
+    </section>
+
+    <section id="skills" class="container">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+            <div>
+                <h3>Programming Languages</h3>
+                <p>Python, JavaScript, HTML/CSS, C/C++</p>
+            </div>
+            <div>
+                <h3>Frameworks & Libraries</h3>
+                <p>React, Node.js, TensorFlow, NLTK</p>
+            </div>
+            <div>
+                <h3>Tools & Technologies</h3>
+                <p>Git, Docker, OpenCV, AWS (Beginner)</p>
+            </div>
+            <div>
+                <h3>Interests</h3>
+                <p>Artificial Intelligence, Machine Learning, Cybersecurity</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="container">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>AI-Powered Drone for Environmental Monitoring</h3>
+            <p>A conceptual project on autonomous drones equipped with sensors for environmental data collection. Utilized AI to analyze patterns in data for ecosystem monitoring.</p>
+        </div>
+        <div class="project">
+            <h3>Fake News Detection System</h3>
+            <p>Developed an NLP model using Python and TensorFlow to classify news articles based on their authenticity, leveraging machine learning and natural language processing.</p>
+        </div>
+        <div class="project">
+            <h3>Personal Portfolio Website</h3>
+            <p>Designed and developed this portfolio to showcase my projects, skills, and journey as an AI/ML enthusiast and cybersecurity beginner.</p>
+        </div>
+    </section>
+
+    <section id="education" class="container">
+        <h2>Education</h2>
+        <div class="education">
+            <h3>Bachelor of Technology in Computer Science</h3>
+            <p>XYZ University, India | Graduated: 2024</p>
+            <ul>
+                <li>Specialized in Artificial Intelligence and Machine Learning</li>
+                <li>Relevant Courses: Data Structures, Algorithms, Machine Learning, Computer Vision</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact" class="container">
+        <h2>Contact</h2>
+        <form id="contact-form">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <div id="confirmation-message"></div>
+    </section>
+
+    <footer>
+        <p>© 2024 Adarsh A Inamdar</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
