@@ -52,13 +52,7 @@ h2 {
     margin-bottom: 10px;
 }
 
-.skills-grid {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-}
-
-.skills-grid div, .project, .education {
+.skills-grid, .project, .education {
     background-color: #1e1e1e;
     padding: 15px;
     margin-bottom: 15px;
