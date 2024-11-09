@@ -4,7 +4,7 @@
 This is a personal portfolio website for showcasing my skills, projects, and educational background. The site has a sleek, dark-themed design with sections dedicated to About Me, Skills, Projects, Education, and Contact. Built with HTML, CSS, and JavaScript, it is optimized for both desktop and mobile viewing.
 
 ### Demo
-[Live Demo Link](#) (Replace this with your deployed URL if available)
+[Live Demo Link](https://adarshinamdar.tech) (Replace this with your deployed URL if available)
 
 ### Technologies Used
 - **HTML**: Structure and content of the webpage.
